@@ -1,0 +1,23 @@
+[package]
+name = "pyo3_rust_py_bridge"
+version = "0.1.0"
+edition = "2021"
+description = "A minimal PyO3 + rayon extension showcasing GIL-free, multi-threaded CPU-bound compute callable from Python."
+license = "MIT"
+
+[lib]
+# The module Python imports. `cdylib` produces the native shared object maturin
+# packages as an importable extension module.
+name = "pyo3_rust_py_bridge"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+rayon = "1"
+
+[profile.release]
+# The flags that make the native path fast. LTO + a single codegen unit let the
+# optimizer inline the hot Monte-Carlo loop across the whole crate.
+opt-level = 3
+lto = true
+codegen-units = 1
