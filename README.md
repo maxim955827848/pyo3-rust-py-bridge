@@ -7,6 +7,12 @@
 
 **Call native, multi-threaded Rust from Python — and leave the GIL behind for CPU-bound work.**
 
+> **About this project.** A standalone, generalized extraction of an architecture pattern from
+> [Ventute](https://ventute.com) — a production AI-driven business-simulation platform — distilled
+> into self-contained, runnable form. Published as a portfolio piece demonstrating high-performance
+> Python/Rust interop and GIL-free parallel compute.
+> Author: [@maxim955827848](https://github.com/maxim955827848).
+
 A minimal, domain-free showcase of the [PyO3](https://pyo3.rs) + [rayon](https://docs.rs/rayon)
 pattern: a tight numeric loop written in Rust, exposed as an ordinary Python
 function, that releases Python's Global Interpreter Lock and fans the work across
