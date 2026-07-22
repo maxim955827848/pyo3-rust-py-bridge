@@ -22,8 +22,8 @@ classifiers = [
 dev = ["pytest>=8.0"]
 
 [project.urls]
-Homepage = "https://github.com/maxim955827848/pyo3-rust-py-bridge"
-Repository = "https://github.com/maxim955827848/pyo3-rust-py-bridge"
+Homepage = "https://github.com/m4xkushnir/pyo3-rust-py-bridge"
+Repository = "https://github.com/m4xkushnir/pyo3-rust-py-bridge"
 
 [tool.maturin]
 # The compiled module is imported as `pyo3_rust_py_bridge` (matches lib.name).

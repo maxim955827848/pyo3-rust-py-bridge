@@ -1,6 +1,6 @@
 # pyo3-rust-py-bridge
 
-[![CI](https://github.com/maxim955827848/pyo3-rust-py-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/maxim955827848/pyo3-rust-py-bridge/actions/workflows/ci.yml)
+[![CI](https://github.com/m4xkushnir/pyo3-rust-py-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/m4xkushnir/pyo3-rust-py-bridge/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
 [![Rust](https://img.shields.io/badge/rust-stable-orange)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -11,7 +11,7 @@
 > [Ventute](https://ventute.com) — a production AI-driven business-simulation platform — distilled
 > into self-contained, runnable form. Published as a portfolio piece demonstrating high-performance
 > Python/Rust interop and GIL-free parallel compute.
-> Author: [@maxim955827848](https://github.com/maxim955827848).
+> Author: [@m4xkushnir](https://github.com/m4xkushnir).
 
 A minimal, domain-free showcase of the [PyO3](https://pyo3.rs) + [rayon](https://docs.rs/rayon)
 pattern: a tight numeric loop written in Rust, exposed as an ordinary Python
@@ -115,7 +115,7 @@ pyo3-rust-py-bridge/
 Requires **Python 3.11+** and a **Rust toolchain** (`rustup`).
 
 ```bash
-git clone https://github.com/maxim955827848/pyo3-rust-py-bridge.git
+git clone https://github.com/m4xkushnir/pyo3-rust-py-bridge.git
 cd pyo3-rust-py-bridge
 
 python -m venv .venv && source .venv/bin/activate
